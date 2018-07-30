@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:stretchColumns="0,1">
+
+    <TableRow>
+
+
+        <TextView
+            android:id="@+id/kind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下单日期"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+
+
+
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:id="@+id/kind1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分缸"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/fengang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/kind2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="调色"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tiaose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+
+
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10dp">
+
+        <TextView
+
+            android:id="@+id/kind3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="造粒小试"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/zaolixiaoshi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10dp">
+
+        <TextView
+
+            android:id="@+id/kind4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="造粒"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/zaoli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10dp">
+
+        <TextView
+
+            android:id="@+id/kind5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总混小试"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/zonghunxiaoshi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10dp">
+
+        <TextView
+
+            android:id="@+id/kind6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总混"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/zonghun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10dp">
+
+        <TextView
+
+            android:id="@+id/kind7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总混测试调整"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tiaozheng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10dp">
+
+        <TextView
+
+            android:id="@+id/kind8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="版面PASS"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/banmian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10dp">
+
+        <TextView
+
+            android:id="@+id/kind9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="等粘度"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/dengniandu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10dp">
+
+        <TextView
+
+            android:id="@+id/kind10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总时间"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+
+    </TableRow>
+
+    <TableRow android:layout_marginTop="10dp">
+
+        <TextView
+
+            android:id="@+id/men"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="操作员"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/operator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+
+    </TableRow>
+
+
+
+</TableLayout>

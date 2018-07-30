@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp">
+
+        <TextView
+            android:id="@+id/orderview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单编号:  "
+            android:textSize="31dp"
+            android:layout_gravity="left"/>
+
+        <EditText
+            android:id="@+id/order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"/>
+
+    </TableRow>
+
+
+    <TableRow android:layout_marginTop="25dp">
+        <TextView />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询"
+            android:textSize="31dp"
+            android:layout_gravity="left"/>
+
+
+    </TableRow>
+
+</TableLayout>
